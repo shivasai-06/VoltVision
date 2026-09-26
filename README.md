@@ -70,3 +70,15 @@ The project strictly enforces transparent data rules: potential duplicate record
 
 ## 14. Important Analytical Disclaimer
 VoltVision's analytical modules identify statistical *associations* between operational characteristics (such as queue wait times and abandonment rates). The analytics **do not prove causation**, as unknown confounders may influence user behavior and hardware performance.
+
+## 15. Step 5 — Backend API
+* A robust **FastAPI backend** now exists in the `backend/` directory.
+* The processed **analytics outputs are served through a backend layer** via the reusable `AnalyticsLoader`.
+* The current step establishes a **clean modular API foundation** (with CORS, strict error handling, and separation of concerns).
+* Current implemented analytical endpoints expose the precomputed Step 4 metrics rather than recalculating them:
+  * `GET /api/kpis` - Exposes the overall, validated network KPIs.
+  * `GET /api/network/trends` - Returns monthly network trends (completed swaps, margin, rates).
+  * `GET /api/network/correlations` - Exposes mathematically derived network metric correlations.
+  * `GET /api/network/observations` - Returns the engine's automated behavioral observations.
+  * `GET /api/network/validation` - Supplies the network validation report for data-integrity checks.
+* **Future endpoints** will expose the remaining analytics modules to power the frontend interface.
