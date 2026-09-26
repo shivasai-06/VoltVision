@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from api.routes import health, test_loader, network, service_failures, stations, service_failure, station, battery
+from api.routes import health, test_loader, network, service_failures, stations, service_failure, station, battery, pricing
 
 app = FastAPI(title="VoltVision API")
 
@@ -47,6 +47,6 @@ app.include_router(station.router, prefix="/api/stations")
 
 # Placeholders for future endpoints:
 app.include_router(battery.router, prefix="/api/batteries")
-# app.include_router(pricing.router, prefix="/api/pricing")
+app.include_router(pricing.router, prefix="/api/pricing")
 # app.include_router(retention.router, prefix="/api/retention")
 # app.include_router(insights.router, prefix="/api/insights")
