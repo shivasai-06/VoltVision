@@ -1,0 +1,35 @@
+# Datasets and outputs
+data/raw/
+data/processed/
+
+# Virtual Environments
+backend/venv/
+.venv/
+venv/
+env/
+
+# Python caching and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Secrets and environment variables
+.env
+.env.*
+*.pem
+secret*.json
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and scratch files
+scratch_*.py
+temp/
+tmp/
+
+# Logs
+*.log
+logs/

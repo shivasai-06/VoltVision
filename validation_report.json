@@ -1,0 +1,98 @@
+{
+    "pk_duplicates": {
+        "station_id": 0,
+        "rider_id": 0,
+        "battery_id": 0,
+        "ticket_id": 0,
+        "partner_id": 0,
+        "event_id": 0
+    },
+    "fk_mismatches": {
+        "support_tickets.rider_id -> riders.rider_id": 0,
+        "support_tickets.station_id -> stations.station_id": 0,
+        "support_tickets.battery_id -> batteries.battery_id": 0,
+        "riders.partner_id -> fleet_partners.partner_id": 7628,
+        "station_hourly_status.station_id -> stations.station_id": 0,
+        "swap_events.rider_id -> riders.rider_id": 0,
+        "swap_events.station_id -> stations.station_id": 0,
+        "swap_events.battery_in_id -> batteries.battery_id": 0,
+        "swap_events.battery_out_id -> batteries.battery_id": 0
+    },
+    "numeric_ranges_invalid": {
+        "csat_score": 0,
+        "latitude": 0,
+        "longitude": 0,
+        "battery_soh": 0,
+        "negative_purchase_cost": 0,
+        "battery_dates_invalid": 0,
+        "swap_events_soc_soh": 9853,
+        "swap_events_negative_financials": 0
+    },
+    "temperature_investigation": {
+        "genuinely_out_of_bounds": 0,
+        "missing_or_nan": 9384,
+        "flag_invalid_temp_total": 0
+    },
+    "financial_investigation": {
+        "samples": [
+            {
+                "list_price_inr": 60.0,
+                "discount_inr": 7.2,
+                "amount_charged_inr": 0.0,
+                "tariff_code": "PARTNER",
+                "payment_mode": "partner_invoice",
+                "event_type": "failed_no_charged_battery"
+            },
+            {
+                "list_price_inr": 60.0,
+                "discount_inr": 0.0,
+                "amount_charged_inr": 0.0,
+                "tariff_code": "STD",
+                "payment_mode": "partner_invoice",
+                "event_type": "failed_no_charged_battery"
+            },
+            {
+                "list_price_inr": 60.0,
+                "discount_inr": 0.0,
+                "amount_charged_inr": 0.0,
+                "tariff_code": "STD",
+                "payment_mode": "partner_invoice",
+                "event_type": "cancelled_by_rider"
+            },
+            {
+                "list_price_inr": 60.0,
+                "discount_inr": 6.0,
+                "amount_charged_inr": 0.0,
+                "tariff_code": "PARTNER",
+                "payment_mode": "partner_invoice",
+                "event_type": "abandoned_queue"
+            },
+            {
+                "list_price_inr": 60.0,
+                "discount_inr": 6.0,
+                "amount_charged_inr": 49.0,
+                "tariff_code": "PARTNER",
+                "payment_mode": "partner_invoice",
+                "event_type": "swap_completed"
+            }
+        ],
+        "stats": {
+            "tariff_code": {
+                "PARTNER": 405306,
+                "STD": 68005,
+                "PEAK": 177879,
+                "OFFPEAK": 37720
+            },
+            "payment_mode": {
+                "partner_invoice": 688910
+            },
+            "event_type": {
+                "failed_no_charged_battery": 134389,
+                "abandoned_queue": 68533,
+                "cancelled_by_rider": 16712,
+                "failed_system_error": 11570,
+                "swap_completed": 457706
+            }
+        }
+    }
+}
