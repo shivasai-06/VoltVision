@@ -30,7 +30,7 @@ class AnalyticsLoader:
         try:
             df = pd.read_csv(path)
             # Replace NaNs with None for JSON serialization
-            df = df.where(pd.notnull(df), None)
+            df = df.astype(object).where(pd.notnull(df), None)
             return df.to_dict(orient="records")
         except Exception as e:
             raise HTTPException(status_code=500, detail="Error parsing analytics data")
