@@ -35,30 +35,13 @@ interface DimensionConfig {
   };
 }
 
-export function RootCauseExplorer() {
-  const [selectedProblem, setSelectedProblem] = useState<string>('');
-  const [selectedDimension, setSelectedDimension] = useState<string>('');
-  const [selectedSegment, setSelectedSegment] = useState<string>('');
-  const [segmentOptions, setSegmentOptions] = useState<string[]>([]);
-  
-  const [loadingOptions, setLoadingOptions] = useState(false);
-  const [loadingInvestigation, setLoadingInvestigation] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  
-  const [investigationData, setInvestigationData] = useState<{
-    results: InvestigationResult[];
-    evidence: any[];
-    factors: any[];
-    observations: any[];
-  } | null>(null);
+const formatValue = (val: number, format: string) => {
+  if (format === 'percent') return (val * 100).toFixed(2) + '%';
+  if (format === 'currency') return '₹' + val.toFixed(2);
+  return new Intl.NumberFormat('en-IN').format(val);
+};
 
-  const formatValue = (val: number, format: string) => {
-    if (format === 'percent') return (val * 100).toFixed(2) + '%';
-    if (format === 'currency') return '₹' + val.toFixed(2);
-    return new Intl.NumberFormat('en-IN').format(val);
-  };
-
-  const PROBLEMS: ProblemConfig[] = [
+const PROBLEMS: ProblemConfig[] = [
     {
       id: 'service_failure',
       label: 'Service Failures',
@@ -188,6 +171,23 @@ export function RootCauseExplorer() {
       ]
     }
   ];
+
+export function RootCauseExplorer() {
+  const [selectedProblem, setSelectedProblem] = useState<string>('');
+  const [selectedDimension, setSelectedDimension] = useState<string>('');
+  const [selectedSegment, setSelectedSegment] = useState<string>('');
+  const [segmentOptions, setSegmentOptions] = useState<string[]>([]);
+  
+  const [loadingOptions, setLoadingOptions] = useState(false);
+  const [loadingInvestigation, setLoadingInvestigation] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  
+  const [investigationData, setInvestigationData] = useState<{
+    results: InvestigationResult[];
+    evidence: any[];
+    factors: any[];
+    observations: any[];
+  } | null>(null);
 
   const currentProblem = PROBLEMS.find(p => p.id === selectedProblem);
   const currentDimension = currentProblem?.dimensions.find(d => d.id === selectedDimension);
