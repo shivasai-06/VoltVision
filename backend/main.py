@@ -11,6 +11,7 @@ origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "https://voltvision-lime.vercel.app",
+    "https://voltvision-rbb4l8gfz-shivasai-06.vercel.app",
 ]
 
 app.add_middleware(
