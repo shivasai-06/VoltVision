@@ -1,0 +1,5 @@
+segment,first_failed,rider_count,returners,retention_rate
+Fleet,False,11168,11115,0.9952542979942693
+Fleet,True,385,384,0.9974025974025974
+Retail,False,6951,6920,0.9955402100417207
+Retail,True,197,196,0.9949238578680203

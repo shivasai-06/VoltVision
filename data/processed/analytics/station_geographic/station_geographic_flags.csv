@@ -1,0 +1,151 @@
+station_id,city,flag_high_failure_rate,flag_high_abandonment_rate,flag_high_queue_wait,flag_high_ticket_rate
+STN-BLR-001,Bengaluru,False,False,False,False
+STN-BLR-002,Bengaluru,False,False,False,False
+STN-BLR-003,Bengaluru,False,False,False,False
+STN-BLR-004,Bengaluru,False,False,False,False
+STN-BLR-005,Bengaluru,False,False,False,False
+STN-BLR-006,Bengaluru,False,False,False,False
+STN-BLR-007,Bengaluru,False,False,False,False
+STN-BLR-008,Bengaluru,False,False,False,False
+STN-BLR-009,Bengaluru,False,False,False,False
+STN-BLR-010,Bengaluru,False,False,False,False
+STN-BLR-011,Bengaluru,False,False,False,False
+STN-BLR-012,Bengaluru,False,False,False,False
+STN-BLR-013,Bengaluru,False,False,False,False
+STN-BLR-014,Bengaluru,False,False,False,False
+STN-BLR-015,Bengaluru,False,False,False,False
+STN-BLR-016,Bengaluru,False,False,False,False
+STN-BLR-017,Bengaluru,False,False,False,False
+STN-BLR-018,Bengaluru,False,False,False,False
+STN-BLR-019,Bengaluru,False,False,False,False
+STN-BLR-020,Bengaluru,False,False,False,False
+STN-BLR-021,Bengaluru,False,False,False,False
+STN-BLR-022,Bengaluru,False,False,False,False
+STN-BLR-023,Bengaluru,False,False,False,False
+STN-BLR-024,Bengaluru,False,False,False,False
+STN-BLR-025,Bengaluru,False,False,False,False
+STN-BLR-026,Bengaluru,False,False,False,False
+STN-BLR-027,Bengaluru,False,False,False,False
+STN-BLR-028,Bengaluru,False,False,False,False
+STN-BLR-029,Bengaluru,False,False,False,True
+STN-BLR-030,Bengaluru,False,False,False,False
+STN-BLR-031,Bengaluru,False,False,False,False
+STN-BLR-032,Bengaluru,False,False,False,False
+STN-DEL-033,Delhi NCR,False,False,False,False
+STN-DEL-034,Delhi NCR,False,False,False,False
+STN-DEL-035,Delhi NCR,False,False,True,False
+STN-DEL-036,Delhi NCR,True,True,True,False
+STN-DEL-037,Delhi NCR,True,True,True,True
+STN-DEL-038,Delhi NCR,False,False,False,False
+STN-DEL-039,Delhi NCR,True,True,False,False
+STN-DEL-040,Delhi NCR,False,True,False,False
+STN-DEL-041,Delhi NCR,False,False,False,False
+STN-DEL-042,Delhi NCR,False,False,False,False
+STN-DEL-043,Delhi NCR,True,True,False,False
+STN-DEL-044,Delhi NCR,False,False,False,False
+STN-DEL-045,Delhi NCR,True,True,False,True
+STN-DEL-046,Delhi NCR,False,False,False,False
+STN-DEL-047,Delhi NCR,False,True,False,False
+STN-DEL-048,Delhi NCR,True,True,True,True
+STN-DEL-049,Delhi NCR,False,False,False,False
+STN-DEL-050,Delhi NCR,True,True,False,False
+STN-DEL-051,Delhi NCR,False,False,False,False
+STN-DEL-052,Delhi NCR,False,False,False,False
+STN-DEL-053,Delhi NCR,False,False,False,False
+STN-DEL-054,Delhi NCR,False,False,False,True
+STN-DEL-055,Delhi NCR,False,False,False,False
+STN-DEL-056,Delhi NCR,False,False,False,False
+STN-DEL-057,Delhi NCR,False,False,False,False
+STN-DEL-058,Delhi NCR,False,False,False,True
+STN-DEL-059,Delhi NCR,False,False,False,False
+STN-DEL-060,Delhi NCR,False,False,False,True
+STN-DEL-061,Delhi NCR,False,False,False,False
+STN-DEL-062,Delhi NCR,False,False,False,True
+STN-HYD-063,Hyderabad,False,False,False,False
+STN-HYD-064,Hyderabad,False,False,False,False
+STN-HYD-065,Hyderabad,False,False,False,False
+STN-HYD-066,Hyderabad,False,False,False,False
+STN-HYD-067,Hyderabad,False,False,False,False
+STN-HYD-068,Hyderabad,False,False,False,False
+STN-HYD-069,Hyderabad,False,False,False,False
+STN-HYD-070,Hyderabad,False,False,False,False
+STN-HYD-071,Hyderabad,False,False,False,False
+STN-HYD-072,Hyderabad,False,False,False,False
+STN-HYD-073,Hyderabad,False,False,False,False
+STN-HYD-074,Hyderabad,False,False,False,False
+STN-HYD-075,Hyderabad,False,False,False,False
+STN-HYD-076,Hyderabad,False,False,False,False
+STN-HYD-077,Hyderabad,False,False,False,False
+STN-HYD-078,Hyderabad,False,False,False,False
+STN-HYD-079,Hyderabad,False,False,False,False
+STN-HYD-080,Hyderabad,False,False,False,False
+STN-HYD-081,Hyderabad,False,False,False,False
+STN-HYD-082,Hyderabad,False,False,False,False
+STN-HYD-083,Hyderabad,False,False,False,False
+STN-HYD-084,Hyderabad,False,False,False,False
+STN-HYD-085,Hyderabad,False,False,False,True
+STN-HYD-086,Hyderabad,False,False,False,True
+STN-HYD-087,Hyderabad,False,False,False,False
+STN-HYD-088,Hyderabad,False,False,False,False
+STN-PUN-089,Pune,False,False,False,False
+STN-PUN-090,Pune,False,False,False,False
+STN-PUN-091,Pune,False,False,False,False
+STN-PUN-092,Pune,False,False,False,False
+STN-PUN-093,Pune,False,False,False,False
+STN-PUN-094,Pune,False,False,False,False
+STN-PUN-095,Pune,False,False,False,False
+STN-PUN-096,Pune,False,False,False,False
+STN-PUN-097,Pune,False,False,False,False
+STN-PUN-098,Pune,False,False,False,False
+STN-PUN-099,Pune,False,False,False,False
+STN-PUN-100,Pune,False,False,False,False
+STN-PUN-101,Pune,False,False,False,False
+STN-PUN-102,Pune,False,False,False,False
+STN-PUN-103,Pune,False,False,False,False
+STN-PUN-104,Pune,False,False,False,False
+STN-PUN-105,Pune,False,False,False,False
+STN-PUN-106,Pune,False,False,False,False
+STN-PUN-107,Pune,False,False,False,False
+STN-PUN-108,Pune,False,False,True,False
+STN-PUN-109,Pune,False,False,False,False
+STN-PUN-110,Pune,False,False,False,False
+STN-MUM-111,Mumbai,False,False,False,False
+STN-MUM-112,Mumbai,False,False,False,False
+STN-MUM-113,Mumbai,False,False,False,False
+STN-MUM-114,Mumbai,False,False,False,False
+STN-MUM-115,Mumbai,False,False,False,False
+STN-MUM-116,Mumbai,False,False,False,False
+STN-MUM-117,Mumbai,False,False,False,False
+STN-MUM-118,Mumbai,False,False,False,False
+STN-MUM-119,Mumbai,False,False,False,False
+STN-MUM-120,Mumbai,False,False,False,False
+STN-MUM-121,Mumbai,False,False,False,False
+STN-MUM-122,Mumbai,False,False,False,False
+STN-MUM-123,Mumbai,False,False,False,False
+STN-MUM-124,Mumbai,False,False,False,False
+STN-MUM-125,Mumbai,False,False,False,False
+STN-MUM-126,Mumbai,False,False,False,False
+STN-MUM-127,Mumbai,False,False,False,False
+STN-MUM-128,Mumbai,False,False,False,False
+STN-MUM-129,Mumbai,False,False,False,False
+STN-MUM-130,Mumbai,False,False,False,False
+STN-MUM-131,Mumbai,False,False,False,False
+STN-MUM-132,Mumbai,False,False,False,False
+STN-JAI-133,Jaipur,False,False,True,False
+STN-JAI-134,Jaipur,True,False,False,False
+STN-JAI-135,Jaipur,False,False,True,False
+STN-JAI-136,Jaipur,True,True,False,False
+STN-JAI-137,Jaipur,True,True,False,False
+STN-JAI-138,Jaipur,True,True,True,False
+STN-JAI-139,Jaipur,True,True,True,False
+STN-JAI-140,Jaipur,True,False,False,True
+STN-JAI-141,Jaipur,True,True,True,True
+STN-JAI-142,Jaipur,True,True,True,False
+STN-JAI-143,Jaipur,False,False,False,True
+STN-JAI-144,Jaipur,False,False,False,False
+STN-JAI-145,Jaipur,False,False,False,True
+STN-JAI-146,Jaipur,False,False,False,False
+STN-JAI-147,Jaipur,False,False,False,False
+STN-JAI-148,Jaipur,False,False,False,True
+STN-JAI-149,Jaipur,False,False,False,False
+STN-JAI-150,Jaipur,False,False,False,False

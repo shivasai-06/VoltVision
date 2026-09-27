@@ -1,0 +1,7 @@
+{
+    "observations": [
+        "Stations in Jaipur exhibited the highest observed failure rate among cities at 4.78%.",
+        "Stations using charger generation Gen1 had a higher observed failure rate than other generations at 4.34%.",
+        "There are 15 stations flagged for having a failure rate above the network 90th percentile."
+    ]
+}

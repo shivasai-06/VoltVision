@@ -1,0 +1,5 @@
+factor_value,rider_count,returners,non_returners,retention_rate,factor
+False,14650,14566,84,0.9942662116040956,had_early_failure
+True,4051,4049,2,0.999506294742039,had_early_failure
+False,18040,17954,86,0.9952328159645233,multiple_early_failures
+True,661,661,0,1.0,multiple_early_failures

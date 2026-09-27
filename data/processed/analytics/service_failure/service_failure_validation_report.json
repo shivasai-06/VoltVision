@@ -1,0 +1,16 @@
+{
+    "status": "PASS",
+    "checks": {
+        "attempts_reconcile_with_4A": true,
+        "hourly_totals_reconcile": true,
+        "dow_totals_reconcile": true,
+        "city_totals_reconcile": true,
+        "station_totals_reconcile": true,
+        "vehicle_class_totals_reconcile": true,
+        "event_type_totals_reconcile": true,
+        "hourly_rates_valid": true,
+        "no_negative_counts": true,
+        "unique_station_rows": true,
+        "queue_wait_metrics_valid": true
+    }
+}

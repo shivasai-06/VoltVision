@@ -1,0 +1,2 @@
+limitation
+"Reliable battery turnaround time cannot be accurately derived directly from battery_in_id and battery_out_id timestamps without full lifecycle tracking. Instead, refer to avg_charge_minutes in telemetry."

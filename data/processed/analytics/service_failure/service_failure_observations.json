@@ -1,0 +1,18 @@
+[
+    {
+        "type": "highest_failure_hour",
+        "description": "The hour 22 exhibited the highest failure rate at 3.95%."
+    },
+    {
+        "type": "highest_abandonment_hour",
+        "description": "The hour 21 exhibited the highest abandonment rate at 1.99%."
+    },
+    {
+        "type": "failure_concentration",
+        "description": "50% of all network failures were concentrated in 37 out of 150 production stations."
+    },
+    {
+        "type": "queue_abandonment_pattern",
+        "description": "Abandonment rates were higher in higher queue-wait buckets: 8.43% in the highest wait bucket compared to 0.00% in the lowest."
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "status": "PASS",
+    "checks": {
+        "riders_unique": true,
+        "followup_subset": true,
+        "returners_logic": true,
+        "no_support_ticket_inflation": true,
+        "rates_bounded": true,
+        "missing_csat_handled": true
+    }
+}

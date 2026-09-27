@@ -1,0 +1,11 @@
+{
+    "status": "PASS",
+    "checks": {
+        "no_potential_duplicates_used": true,
+        "linkage_did_not_inflate_events": true,
+        "profile_count_matches_valid_batteries": true,
+        "profile_swaps_reconcile": true,
+        "rates_valid": true,
+        "no_negative_metrics": true
+    }
+}

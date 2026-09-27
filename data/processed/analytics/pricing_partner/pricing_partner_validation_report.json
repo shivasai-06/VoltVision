@@ -1,0 +1,12 @@
+{
+    "status": "PASS",
+    "checks": {
+        "attempts_reconcile": true,
+        "completed_swaps_reconcile": true,
+        "revenue_totals_reconcile": true,
+        "city_totals_reconcile": true,
+        "fleet_retail_totals_reconcile": true,
+        "rates_bounded": true,
+        "no_negative_completed_counts": true
+    }
+}

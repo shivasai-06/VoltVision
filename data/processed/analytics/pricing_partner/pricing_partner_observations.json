@@ -1,0 +1,12 @@
+{
+    "observations": [
+        {
+            "topic": "Peak vs Off-Peak Pricing",
+            "observation": "Peak periods were associated with an average revenue per swap of INR 78.47, compared to INR 63.05 during off-peak periods."
+        },
+        {
+            "topic": "Revenue vs Margin Trends",
+            "observation": "Over the analyzed period, monthly revenue shifted from INR 6,198,803 to INR 19,690,637. Concurrently, contribution margin per swap shifted from INR 37.88 to INR 47.92."
+        }
+    ]
+}

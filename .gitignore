@@ -1,6 +1,7 @@
 # Datasets and outputs
 data/raw/
-data/processed/
+data/processed/*
+!data/processed/analytics/
 
 # Virtual Environments
 backend/venv/

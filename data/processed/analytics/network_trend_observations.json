@@ -1,0 +1,62 @@
+[
+    {
+        "observation_type": "divergence_completion_failure",
+        "period": "2024-04",
+        "description": "In 2024-04, completed swaps increased from 118443.0 to 122836, while failure rate simultaneously increased from 0.0237 to 0.0408."
+    },
+    {
+        "observation_type": "divergence_completion_failure",
+        "period": "2024-05",
+        "description": "In 2024-05, completed swaps increased from 122836.0 to 128328, while failure rate simultaneously increased from 0.0408 to 0.0773."
+    },
+    {
+        "observation_type": "divergence_completion_failure",
+        "period": "2024-09",
+        "description": "In 2024-09, completed swaps increased from 164929.0 to 187300, while failure rate simultaneously increased from 0.0230 to 0.0239."
+    },
+    {
+        "observation_type": "divergence_completion_failure",
+        "period": "2024-12",
+        "description": "In 2024-12, completed swaps increased from 228249.0 to 252615, while failure rate simultaneously increased from 0.0226 to 0.0237."
+    },
+    {
+        "observation_type": "divergence_completion_failure",
+        "period": "2025-03",
+        "description": "In 2025-03, completed swaps increased from 256666.0 to 290741, while failure rate simultaneously increased from 0.0230 to 0.0237."
+    },
+    {
+        "observation_type": "divergence_completion_failure",
+        "period": "2025-04",
+        "description": "In 2025-04, completed swaps increased from 290741.0 to 293213, while failure rate simultaneously increased from 0.0237 to 0.0373."
+    },
+    {
+        "observation_type": "divergence_completion_failure",
+        "period": "2025-05",
+        "description": "In 2025-05, completed swaps increased from 293213.0 to 307878, while failure rate simultaneously increased from 0.0373 to 0.0619."
+    },
+    {
+        "observation_type": "divergence_revenue_margin",
+        "period": "2024-09",
+        "description": "In 2024-09, total revenue increased from 10724182.25 to 12115092.5, while contribution margin per completed swap decreased from 44.38 to 44.23."
+    },
+    {
+        "observation_type": "divergence_revenue_margin",
+        "period": "2024-11",
+        "description": "In 2024-11, total revenue increased from 14577008.95 to 14759264.75, while contribution margin per completed swap decreased from 46.09 to 44.75."
+    },
+    {
+        "observation_type": "divergence_queue_abandonment",
+        "period": "2024-02",
+        "description": "In 2024-02, average queue wait increased from 242.3s to 243.5s alongside an increase in abandonment rate from 0.0127 to 0.0130."
+    },
+    {
+        "observation_type": "divergence_queue_abandonment",
+        "period": "2024-04",
+        "description": "In 2024-04, average queue wait increased from 242.2s to 243.3s alongside an increase in abandonment rate from 0.0127 to 0.0204."
+    },
+    {
+        "observation_type": "divergence_queue_abandonment",
+        "period": "2024-10",
+        "description": "In 2024-10, average queue wait increased from 242.9s to 243.1s alongside an increase in abandonment rate from 0.0125 to 0.0126."
+    }
+]

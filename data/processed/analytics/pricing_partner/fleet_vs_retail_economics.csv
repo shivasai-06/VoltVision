@@ -1,0 +1,2 @@
+is_fleet,total_attempts,completed_swaps,failed_swaps,abandoned_swaps,avg_list_price,median_list_price,avg_discount,avg_amount_charged,revenue,total_margin,valid_margin_events,revenue_per_completed_swap,margin_per_completed_swap,failure_rate,abandonment_rate
+True,3814930,3586628,132781,67663,68.79308794656782,65.0,5.838418293389394,60.077771309041054,229192492.1,159275638.32446,3586628,63.90194134992533,44.40818460249014,0.034805618975970724,0.0177363673776452

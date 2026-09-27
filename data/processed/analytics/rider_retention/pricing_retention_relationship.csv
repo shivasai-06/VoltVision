@@ -1,0 +1,7 @@
+factor_value,rider_count,returners,non_returners,retention_rate,factor
+"(-0.001, 54.0]",4906,4885,21,0.9957195271096616,first_price_bucket
+"(54.0, 60.0]",6883,6853,30,0.9956414354206015,first_price_bucket
+"(60.0, 65.0]",3433,3421,12,0.9965045150014564,first_price_bucket
+"(65.0, 125.0]",3479,3456,23,0.9933889048577177,first_price_bucket
+"(-0.001, 7.15]",12882,12827,55,0.995730476634063,first_discount_bucket
+"(7.15, 30.8]",5819,5788,31,0.9946726241622272,first_discount_bucket

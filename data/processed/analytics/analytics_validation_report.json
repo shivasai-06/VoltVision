@@ -1,0 +1,16 @@
+{
+    "status": "PASS",
+    "checks": {
+        "daily_reconciles_with_source": true,
+        "monthly_reconciles_with_daily": true,
+        "event_types_sum_to_total": true,
+        "rates_between_0_and_1": true,
+        "revenue_not_negative": true,
+        "date_coverage": {
+            "source_min": "2024-01-01 00:00:33",
+            "source_max": "2025-06-30 23:59:23",
+            "daily_min": "2024-01-01",
+            "daily_max": "2025-06-30"
+        }
+    }
+}

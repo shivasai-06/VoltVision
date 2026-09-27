@@ -1,0 +1,7 @@
+{
+    "observations": [
+        "Observed delivered range varied by SOH cohort: The <70% cohort averaged 49.6 km, while the 80-90% cohort averaged 70.4 km.",
+        "Batteries from supplier Kyron exhibited an observed failure rate of 3.88% across 1638 batteries, meriting routine operational review.",
+        "Identified 669 batteries mathematically flagged for unusually low SOH (bottom 10th percentile), tagged for investigation."
+    ]
+}

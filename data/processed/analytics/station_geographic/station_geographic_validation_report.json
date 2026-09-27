@@ -1,0 +1,13 @@
+{
+    "status": "PASS",
+    "checks": {
+        "station_totals_reconcile": true,
+        "city_totals_reconcile": true,
+        "location_type_totals_reconcile": true,
+        "charger_generation_totals_reconcile": true,
+        "test_stations_excluded": true,
+        "no_duplicate_station_rows": true,
+        "rates_valid": true,
+        "no_negative_metrics": true
+    }
+}

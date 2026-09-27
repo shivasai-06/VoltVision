@@ -1,0 +1,10 @@
+factor_value,rider_count,returners,non_returners,retention_rate,factor
+False,4974,4909,65,0.9869320466425412,had_support_ticket
+True,13727,13706,21,0.998470168281489,had_support_ticket
+False,9012,8939,73,0.9918996893031513,multiple_support_tickets
+True,9689,9676,13,0.9986582722675199,multiple_support_tickets
+High (4-5),4431,4428,3,0.999322951929587,csat_cohort
+Low (1-2),1320,1317,3,0.9977272727272727,csat_cohort
+Medium (3),1508,1507,1,0.9993368700265252,csat_cohort
+No CSAT,5029,5016,13,0.9974149930403658,csat_cohort
+Unknown,6413,6347,66,0.9897084048027445,csat_cohort

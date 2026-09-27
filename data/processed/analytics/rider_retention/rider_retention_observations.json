@@ -1,0 +1,20 @@
+{
+    "observations": [
+        {
+            "topic": "Overall Retention",
+            "observation": "The observed new-rider 30-day retention rate was 99.54% among 18701 eligible riders."
+        },
+        {
+            "topic": "First Experience",
+            "observation": "Riders exposed to a failure on their first attempt had a lower observed return rate (99.66%) compared to those who did not (99.54%)."
+        },
+        {
+            "topic": "Early Failure Exposure",
+            "observation": "Early exposure to any failed swap in the first 7 days was associated with a retention rate of 99.95%, differing from 99.43% for those without early failures."
+        },
+        {
+            "topic": "CSAT Coverage",
+            "observation": "CSAT scores were available for only 46.51% of riders, meaning absent CSAT cannot strictly be interpreted as negative feedback."
+        }
+    ]
+}

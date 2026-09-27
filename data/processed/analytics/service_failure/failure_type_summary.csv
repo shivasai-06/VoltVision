@@ -1,0 +1,6 @@
+event_type,event_count,percentage_of_attempts
+swap_completed,3586628,0.9401556516109076
+failed_no_charged_battery,132781,0.034805618975970724
+abandoned_queue,67663,0.0177363673776452
+cancelled_by_rider,16458,0.004314102748936416
+failed_system_error,11400,0.002988259286539989
