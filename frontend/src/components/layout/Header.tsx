@@ -1,19 +1,20 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { fetchApi } from '../../api/client';
+import { Menu } from 'lucide-react';
 
 const PAGE_TITLES: Record<string, string> = {
-  '/': 'Command Center',
+  '/': 'Dashboard',
   '/station-risk': 'Station Risk',
   '/network': 'Network Analytics',
   '/battery': 'Battery Intelligence',
-  '/pricing': 'Pricing & Partners',
+  '/pricing': 'Pricing & Partner Economics',
   '/retention': 'Rider Retention',
   '/root-cause': 'Root Cause Explorer',
   '/decision-simulator': 'Decision Simulator',
 };
 
-export function Header() {
+export function Header({ onMenuClick }: { onMenuClick?: () => void }) {
   const location = useLocation();
   const pageTitle = PAGE_TITLES[location.pathname] || 'Dashboard';
   
@@ -42,8 +43,16 @@ export function Header() {
   }, []);
 
   return (
-    <header className="h-16 border-b border-border bg-white flex items-center justify-between px-8 shrink-0 shadow-sm z-10 sticky top-0">
+    <header className="h-16 border-b border-border bg-white flex items-center justify-between px-4 sm:px-8 shrink-0 shadow-sm z-10 sticky top-0">
       <div className="flex items-center gap-3">
+        {onMenuClick && (
+          <button 
+            onClick={onMenuClick}
+            className="md:hidden p-2 -ml-2 text-slate-500 hover:text-slate-800 focus:outline-none"
+          >
+            <Menu className="w-6 h-6" />
+          </button>
+        )}
         <h2 className="text-lg font-semibold tracking-tight text-slate-800">{pageTitle}</h2>
       </div>
 
@@ -53,7 +62,7 @@ export function Header() {
           {status === 'online' && <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.5)]"></div>}
           {status === 'offline' && <div className="w-2 h-2 rounded-full bg-red-500"></div>}
           
-          <span className="text-[11px] uppercase tracking-wider font-semibold text-slate-500">
+          <span className="text-[11px] uppercase tracking-wider font-semibold text-slate-500 hidden sm:inline">
             {status === 'loading' ? 'Checking Engine' : 
              status === 'online' ? 'Analytics Engine Online' : 
              'Engine Offline'}
